@@ -747,7 +747,7 @@ async function main() {
         // "nike.splat",
         // location.href,
         params.get("url") || "letsgo-campus-example.splat",
-        "https://huggingface.co/spaces/yodlee/splat-res/tree/main",
+        "https://yodlee-splat-res.static.hf.space/",
     );
     const req = await fetch(url, {
         mode: "cors", // no-cors, *cors, same-origin
